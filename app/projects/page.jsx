@@ -4,14 +4,14 @@ import ProjectCard from './project-card';
 const Projects = () => {
 
   return (
-    <div id='projects' className="relative my-12 lg:my-36">
+    <div id='projects' className="sticky top-0 left-0 my-12 lg:mt-32 flex gap-10 lg:gap-0 lg:justify-around">
       <div className="sticky top-10">
-        <div className="w-[80px] h-[80px] bg-violet-100 rounded-full absolute -top-3 left-0 translate-x-1/2 filter blur-3xl  opacity-30"></div>
-        <div className="flex items-center justify-start relative">
-          <span className="bg-[#1a1443] absolute left-0  w-fit text-white px-5 py-3 text-xl rounded-md">
+        <div className="w-[80px] h-[80px] bg-violet-100 rounded-full absolute -top-3 left-0 translate-x-1/2 blur-3xl opacity-30"></div>
+        <div className="flex flex-col items-center justify-start sticky top-20 left-0 lg:top-26 lg:left-24">
+          <span className="bg-[#1a1443] sticky w-fit text-white px-5 py-4 text-xl rounded-md">
             PROJECTS
           </span>
-          <span className="w-full h-[2px] bg-[#1a1443]"></span>
+          <span className="h-screen w-[2px] bg-[#1a1443]"></span>
         </div>
       </div>
 

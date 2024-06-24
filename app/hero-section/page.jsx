@@ -12,15 +12,6 @@ import { RiContactsFill } from "react-icons/ri";
 const HeroSection = () => {
   return (
     <section className="relative flex flex-col items-center justify-between py-4 lg:pt-28">
-      <Image
-        src="/hero.svg"
-        alt="Hero"
-        width={1572}
-        height={795}
-        className="absolute -top-[98px] -z-10"
-        loading="lazy"
-      />
-
       <div className="grid grid-cols-1 items-start lg:grid-cols-2 lg:gap-12 gap-y-8">
         <div className="order-2 lg:order-1 flex flex-col items-start justify-center p-2 lg:pt-10">
           <h1 className="text-3xl font-bold leading-10 text-white md:font-extrabold lg:text-[2.6rem] lg:leading-[3.5rem]">
@@ -78,9 +69,9 @@ const HeroSection = () => {
               <MdDownload size={16} />
             </Link>
           </div>
-
         </div>
-        <div className="order-1 lg:order-2 from-[#0d1224] border-[#1b2c68a0] relative rounded-lg border bg-gradient-to-r to-[#0a0d37]">
+
+        <div className="order-1 from-[#0d1224] border-[#1b2c68a0] relative rounded-lg border bg-gradient-to-r to-[#0a0d37] mt-32 lg:mt-auto">
           <div className="flex flex-row">
             <div className="h-[1px] w-full bg-gradient-to-r from-transparent via-pink-500 to-violet-600"></div>
             <div className="h-[1px] w-full bg-gradient-to-r from-violet-600 to-transparent"></div>
@@ -92,7 +83,7 @@ const HeroSection = () => {
               <div className="h-3 w-3 rounded-full bg-green-200"></div>
             </div>
           </div>
-          <div className="overflow-hidden border-t-[2px] border-indigo-900 px-4 lg:px-8 py-4">
+          <div className="overflow-hidden border-t-[2px] border-indigo-900 px-8 py-4">
             <code className="font-mono text-xs md:text-sm lg:text-base">
               <div className="blink">
                 <span className="mr-2 text-pink-500">const</span>

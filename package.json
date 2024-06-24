@@ -19,7 +19,8 @@
     "react-dom": "latest",
     "react-fast-marquee": "latest",
     "react-google-recaptcha": "latest",
-    "react-icons": "latest"
+    "react-icons": "latest",
+    "react-toastify": "^10.0.5"
   },
   "devDependencies": {
     "autoprefixer": "latest",

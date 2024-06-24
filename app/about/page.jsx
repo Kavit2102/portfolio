@@ -6,7 +6,7 @@ import Image from "next/image";
 
 const AboutSection = () => {
   return (
-    <div id="about" className="mt-12 lg:mt-48 w-full relative">
+    <div id="about" className="mt-12 lg:my-36 w-full relative">
       <div className="hidden lg:flex flex-col items-center absolute top-16 -right-8">
         <span className="bg-[#1a1443] w-fit text-white rotate-90 p-2 px-5 text-xl rounded-md">
           ABOUT ME
